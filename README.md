@@ -16,5 +16,5 @@ cd build_DbSoftware
 qmake CONFIG+=ccache ../DbSoftware
 make -j$(nproc) sub-DbTernaryClock
 make sub-DbTernaryClock-install_subtargets
-./bin/serialserver
+./bin/ternaryclock
 ```
