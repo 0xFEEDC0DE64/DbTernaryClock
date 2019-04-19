@@ -4,7 +4,7 @@
 #include <QTimer>
 #include <QTime>
 
-#include "ledindicator.h"
+#include "widgets/ledindicator.h"
 
 enum class LightState
 {
